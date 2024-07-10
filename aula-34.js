@@ -1,17 +1,17 @@
 //Criando classe
-
 class Pessoa {
     nome;
     idade;
     filhos;
 
+    //Função contar filhos
     quantosFilhos() {
         if(this.filhos) {
             return this.filhos.length;
         }
         return 0;
     }
-
+    //Construtor para retornar valores da classe
     constructor(nome, idade, filhos) {
         this.nome = nome;
         this.idade = idade;
